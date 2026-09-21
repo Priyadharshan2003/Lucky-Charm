@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from 'next/link';
 import Image from 'next/image';
-import { Briefcase, Linkedin, Instagram } from 'lucide-react';
+import { Briefcase } from 'lucide-react';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -137,8 +137,8 @@ export default function RootLayout({
               <p>&copy; {new Date().getFullYear()} Priyadharshan Chandranath. All rights reserved.</p>
               <div className="flex items-center gap-4">
                 <a href="https://priyadharshan-tau.vercel.app/#contact" target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-white transition-colors" title="Portfolio"><Briefcase size={16} /></a>
-                <a href="https://www.linkedin.com/in/priyadharshan-chandranath" target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-white transition-colors" title="LinkedIn"><Linkedin size={16} /></a>
-                <a href="https://www.instagram.com/priyadharshan_chandranath" target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-white transition-colors" title="Instagram"><Instagram size={16} /></a>
+                <a href="https://www.linkedin.com/in/priyadharshan-chandranath" target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-white transition-colors" title="LinkedIn"><svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
+                <a href="https://www.instagram.com/priyadharshan_chandranath" target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-white transition-colors" title="Instagram"><svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
                 <div className="w-px h-4 bg-white/10 mx-2 hidden sm:block" />
                 <Link href="/privacy" className="hover:text-neutral-400 transition-colors">Privacy</Link>
                 <Link href="/terms" className="hover:text-neutral-400 transition-colors">Terms</Link>
