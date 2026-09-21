@@ -114,13 +114,13 @@ export default function Home() {
               {os === 'mac' ? (
                 <>
                   <a 
-                    href="https://github.com/Priyadharshan2003/Lucky-Dangle/releases/download/v2.0.0/lucky-charm-2.0.0.dmg" 
+                    href="https://github.com/Priyadharshan2003/Lucky-Charm/releases/download/2.0.0/lucky-charm-2.0.0.1.dmg" 
                     className="px-8 py-3.5 bg-white text-black rounded-full font-bold transition-all duration-200 hover:scale-105 active:scale-95 shadow-[0_0_30px_-5px_rgba(255,255,255,0.3)] text-sm md:text-base"
                   >
                     Download for macOS
                   </a>
                   <a 
-                    href="https://github.com/Priyadharshan2003/Lucky-Dangle/releases/download/v2.0.0/Lucky.Charm_2.0.0_x64-setup.exe" 
+                    href="https://github.com/Priyadharshan2003/Lucky-Charm/releases/download/2.0.0/Lucky.Charm_2.0.0_x64-setup.exe" 
                     className="px-8 py-3.5 glass text-white rounded-full font-semibold border border-white/10 hover:bg-white/10 transition-all duration-200 hover:scale-105 active:scale-95 text-sm md:text-base"
                   >
                     Download for Windows
@@ -129,13 +129,13 @@ export default function Home() {
               ) : (
                 <>
                   <a 
-                    href="https://github.com/Priyadharshan2003/Lucky-Dangle/releases/download/v2.0.0/Lucky.Charm_2.0.0_x64-setup.exe" 
+                    href="https://github.com/Priyadharshan2003/Lucky-Charm/releases/download/2.0.0/Lucky.Charm_2.0.0_x64-setup.exe" 
                     className="px-8 py-3.5 bg-white text-black rounded-full font-bold transition-all duration-200 hover:scale-105 active:scale-95 shadow-[0_0_30px_-5px_rgba(255,255,255,0.3)] text-sm md:text-base"
                   >
                     Download for Windows
                   </a>
                   <a 
-                    href="https://github.com/Priyadharshan2003/Lucky-Dangle/releases/download/v2.0.0/lucky-charm-2.0.0.dmg" 
+                    href="https://github.com/Priyadharshan2003/Lucky-Charm/releases/download/2.0.0/lucky-charm-2.0.0.1.dmg" 
                     className="px-8 py-3.5 glass text-white rounded-full font-semibold border border-white/10 hover:bg-white/10 transition-all duration-200 hover:scale-105 active:scale-95 text-sm md:text-base"
                   >
                     Download for macOS
@@ -151,7 +151,7 @@ export default function Home() {
             >
               {/* GitHub Star Button */}
               <a
-                href="https://github.com/Priyadharshan2003/Lucky-Dangle"
+                href="https://github.com/Priyadharshan2003/Lucky-Charm"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-5 py-2.5 glass rounded-full font-semibold border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-200 hover:scale-105 active:scale-95 text-sm text-white group"

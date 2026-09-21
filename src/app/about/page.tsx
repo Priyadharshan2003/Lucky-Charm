@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { Briefcase, Linkedin, Instagram, Mail } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'About | Lucky Charm',
@@ -56,20 +57,36 @@ export default function AboutPage() {
               </ul>
             </div>
 
-            <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row gap-6">
+            <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row flex-wrap gap-4">
               <a 
-                href="https://priyadharshan-tau.vercel.app/" 
+                href="https://priyadharshan-tau.vercel.app/#contact" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-3 bg-white text-black text-center rounded-xl font-bold hover:bg-neutral-200 transition-colors"
+                className="flex items-center justify-center gap-2 px-6 py-3 bg-white text-black text-center rounded-xl font-bold hover:bg-neutral-200 transition-colors"
               >
-                View Portfolio
+                <Briefcase size={18} /> Portfolio
+              </a>
+              <a 
+                href="https://www.linkedin.com/in/priyadharshan-chandranath" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 px-6 py-3 glass text-white text-center rounded-xl font-bold hover:bg-white/10 transition-colors border border-white/10"
+              >
+                <Linkedin size={18} /> LinkedIn
+              </a>
+              <a 
+                href="https://www.instagram.com/priyadharshan_chandranath" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 px-6 py-3 glass text-white text-center rounded-xl font-bold hover:bg-white/10 transition-colors border border-white/10"
+              >
+                <Instagram size={18} /> Instagram
               </a>
               <a 
                 href="mailto:priyadharshanchandranath@gmail.com" 
-                className="px-6 py-3 glass text-white text-center rounded-xl font-bold hover:bg-white/10 transition-colors border border-white/10"
+                className="flex items-center justify-center gap-2 px-6 py-3 glass text-white text-center rounded-xl font-bold hover:bg-white/10 transition-colors border border-white/10"
               >
-                Contact Me
+                <Mail size={18} /> Contact Me
               </a>
             </div>
           </div>

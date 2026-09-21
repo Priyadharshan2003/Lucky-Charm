@@ -71,7 +71,7 @@ export default function DownloadPage() {
               </ul>
               
               <a 
-                href="https://github.com/Priyadharshan2003/Lucky-Dangle/releases/download/v2.0.0/Lucky.Charm_2.0.0_x64-setup.exe"
+                href="https://github.com/Priyadharshan2003/Lucky-Charm/releases/download/2.0.0/Lucky.Charm_2.0.0_x64-setup.exe"
                 className="block w-full py-4 bg-white text-black text-center rounded-2xl font-bold text-lg hover:bg-neutral-200 transition-all hover:scale-[1.02] active:scale-[0.98]"
               >
                 Download for Windows
@@ -115,7 +115,7 @@ export default function DownloadPage() {
               </ul>
               
               <a 
-                href="https://github.com/Priyadharshan2003/Lucky-Dangle/releases/download/v2.0.0/lucky-charm-2.0.0.dmg"
+                href="https://github.com/Priyadharshan2003/Lucky-Charm/releases/download/2.0.0/lucky-charm-2.0.0.1.dmg"
                 className="block w-full py-4 glass text-white text-center rounded-2xl font-bold text-lg hover:bg-white/10 transition-all hover:scale-[1.02] active:scale-[0.98] border border-white/10"
               >
                 Download for macOS

@@ -61,11 +61,11 @@ Built as a strict monorepo with zero coupling between layers:
 
 | Installer | Size | Notes |
 | :--- | :--- | :--- |
-| `Lucky Charm_2.0.0_x64-setup.exe` | 15.90 MB | ✅ Recommended |
-| `Lucky Charm_2.0.0_x64_en-US.msi` | 17.16 MB | Enterprise |
+| [`Lucky.Charm_2.0.0_x64-setup.exe`](https://github.com/Priyadharshan2003/Lucky-Charm/releases/download/2.0.0/Lucky.Charm_2.0.0_x64-setup.exe) | 15.90 MB | ✅ Recommended |
+| [`Lucky.Charm_2.0.0_x64-US.msi`](https://github.com/Priyadharshan2003/Lucky-Charm/releases/download/2.0.0/Lucky.Charm_2.0.0_x64-US.msi) | 17.16 MB | Enterprise |
+| [`lucky-charm-2.0.0.1.dmg`](https://github.com/Priyadharshan2003/Lucky-Charm/releases/download/2.0.0/lucky-charm-2.0.0.1.dmg) | ~20 MB | macOS |
 
-*System Requirements: Windows 11+ (x64)*  
-*macOS and browser extension support coming in Phase 2.*
+*System Requirements: Windows 11+ (x64) / macOS*  
 
 ## 🔒 Security & Privacy
 - **Fully offline** — no telemetry, no accounts, no network calls.
@@ -76,7 +76,7 @@ Built as a strict monorepo with zero coupling between layers:
 Built with [Tauri](https://tauri.app/), [React 19](https://react.dev/), [Rust](https://www.rust-lang.org/), and the `windows-rs` crate.
 Special thanks to every early tester and contributor.
 
-Full Changelog: [https://github.com/Priyadharshan2003/Lucky-Dangle/commits/v2.0.0](https://github.com/Priyadharshan2003/Lucky-Dangle/commits/v2.0.0)
+Full Changelog: [https://github.com/Priyadharshan2003/Lucky-Charm/commits/v2.0.0](https://github.com/Priyadharshan2003/Lucky-Charm/commits/v2.0.0)
 
-⭐ [Star the repo](https://github.com/Priyadharshan2003/Lucky-Dangle) if Lucky Charm brings a little magic to your day!  
+⭐ [Priyadharshan2003/Lucky-Charm: Small Objects. Meaningful Connections. Your traditions, culture, and identity — now dangling live from your desktop with real-time physics.](https://github.com/Priyadharshan2003/Lucky-Charm) if Lucky Charm brings a little magic to your day!  
 ☕ [Buy me a coffee](https://buymeacoffee.com/priyadharshan) to support development.

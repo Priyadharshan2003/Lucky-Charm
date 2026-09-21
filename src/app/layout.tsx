@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from 'next/link';
 import Image from 'next/image';
+import { Briefcase, Linkedin, Instagram } from 'lucide-react';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -108,7 +109,7 @@ export default function RootLayout({
                 Bring magic to your desktop. Small objects. Meaningful connections. For Windows & macOS.
               </p>
               <p className="text-xs text-neutral-600">
-                Built by <a href="https://priyadharshan-tau.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-neutral-300 hover:text-white transition-colors">Priyadharshan Chandranath</a>
+                Built by <a href="https://priyadharshan-tau.vercel.app/#contact" target="_blank" rel="noopener noreferrer" className="text-neutral-300 hover:text-white transition-colors">Priyadharshan Chandranath</a>
               </p>
             </div>
             
@@ -134,7 +135,11 @@ export default function RootLayout({
           <div className="border-t border-white/5 py-4 w-full">
             <div className="max-w-[1400px] mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-2 text-[11px] text-neutral-600">
               <p>&copy; {new Date().getFullYear()} Priyadharshan Chandranath. All rights reserved.</p>
-              <div className="flex gap-4">
+              <div className="flex items-center gap-4">
+                <a href="https://priyadharshan-tau.vercel.app/#contact" target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-white transition-colors" title="Portfolio"><Briefcase size={16} /></a>
+                <a href="https://www.linkedin.com/in/priyadharshan-chandranath" target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-white transition-colors" title="LinkedIn"><Linkedin size={16} /></a>
+                <a href="https://www.instagram.com/priyadharshan_chandranath" target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-white transition-colors" title="Instagram"><Instagram size={16} /></a>
+                <div className="w-px h-4 bg-white/10 mx-2 hidden sm:block" />
                 <Link href="/privacy" className="hover:text-neutral-400 transition-colors">Privacy</Link>
                 <Link href="/terms" className="hover:text-neutral-400 transition-colors">Terms</Link>
                 <a href="mailto:priyadharshanchandranath@gmail.com" className="hover:text-neutral-400 transition-colors">Contact</a>
