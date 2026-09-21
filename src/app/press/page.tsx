@@ -109,13 +109,20 @@ export default function PressKitPage() {
 
               {activeTab === 'video' && (
                 <div className="animate-in fade-in slide-in-from-bottom-4 duration-500 text-center">
-                  <div className="aspect-video w-full rounded-2xl bg-black/50 border border-white/10 flex flex-col items-center justify-center mb-6">
-                    <Play className="w-12 h-12 text-neutral-600 mb-4" />
-                    <p className="text-neutral-500">Video assets coming soon</p>
+                  <div className="aspect-video w-full rounded-2xl bg-black/50 border border-white/10 flex flex-col items-center justify-center mb-6 overflow-hidden relative">
+                    <video 
+                      src="/guide/exp%20video.mp4" 
+                      controls 
+                      className="w-full h-full object-cover"
+                    />
                   </div>
-                  <button className="px-6 py-2 glass text-white rounded-full font-medium hover:bg-white/10 transition-colors inline-flex items-center gap-2">
+                  <a 
+                    href="/guide/exp%20video.mp4" 
+                    download="lucky-charm-experience.mp4"
+                    className="px-6 py-2 glass text-white rounded-full font-medium hover:bg-white/10 transition-colors inline-flex items-center gap-2"
+                  >
                     <Download className="w-4 h-4" /> Download Trailer (MP4)
-                  </button>
+                  </a>
                 </div>
               )}
 
