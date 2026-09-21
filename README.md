@@ -3,6 +3,8 @@
 *Small Objects. Meaningful Connections.*
 Your traditions, culture, and identity — now dangling live from your desktop with real-time physics.
 
+<video src="./public/guide/exp%20video.mp4" width="100%" controls autoplay loop muted></video>
+
 ## ✨ What's New
 
 ### 🔬 Real-Time Physics Engine

@@ -198,6 +198,25 @@ export default function Home() {
           </motion.div>
         </header>
 
+        {/* App Experience Video */}
+        <section 
+          aria-labelledby="video-heading"
+          className="relative max-w-4xl mx-auto mb-16 z-10 px-4 sm:px-6"
+        >
+          <h2 id="video-heading" className="sr-only">App Experience Video</h2>
+          <div className="glass-panel rounded-3xl overflow-hidden border border-white/10 shadow-2xl relative">
+            <video 
+              src="/guide/exp%20video.mp4" 
+              autoPlay 
+              loop 
+              muted 
+              playsInline 
+              controls
+              className="w-full h-auto rounded-3xl"
+            />
+          </div>
+        </section>
+
         {/* Interactive Physics Showcase - Brought above the fold */}
         <section 
           id="demo"
