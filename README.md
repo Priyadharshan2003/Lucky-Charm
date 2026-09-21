@@ -1,4 +1,4 @@
-# 🎉 Lucky Charm v2.0.0 — The Desktop Companion Release
+# 🎉 Lucky Charm v2.0.0 
 
 *Small Objects. Meaningful Connections.*
 Your traditions, culture, and identity — now dangling live from your desktop with real-time physics.
