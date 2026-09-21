@@ -80,6 +80,7 @@ export default function RootLayout({
             </Link>
             <div className="hidden md:flex items-center gap-6 text-sm font-medium text-neutral-400">
               <Link href="/#demo" className="hover:text-white transition-colors">Collections</Link>
+              <Link href="/how-to-use" className="hover:text-white transition-colors">How to Use</Link>
               <Link href="/notes" className="hover:text-white transition-colors">What's New</Link>
               <Link href="/about" className="hover:text-white transition-colors">About</Link>
               <Link href="/press" className="hover:text-white transition-colors">Press</Link>
@@ -118,6 +119,7 @@ export default function RootLayout({
               <ul className="space-y-2 text-xs text-neutral-400">
                 <li><Link href="/download" className="hover:text-white transition-colors">Download</Link></li>
                 <li><Link href="/#demo" className="hover:text-white transition-colors">Collections</Link></li>
+                <li><Link href="/how-to-use" className="hover:text-white transition-colors">How to Use</Link></li>
                 <li><Link href="/notes" className="hover:text-white transition-colors">What's New</Link></li>
               </ul>
             </div>
